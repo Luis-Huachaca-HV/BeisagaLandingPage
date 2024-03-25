@@ -40,8 +40,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-img {
-  max-width: 100%; }
+
 
 a:focus,
 input:focus,
@@ -3193,7 +3192,15 @@ p.form-message.success, p.form-message.error {
 .footer-area {
   background-color: #f4f6f7;
   padding-top: 90px;
-  padding-bottom: 120px; }
+  padding-bottom: 120px;
+
+
+
+}
+.footer-area img{
+  max-width: 100%;
+  border-radius: 15px;
+}
   .footer-area .social li {
     display: inline-block;
     margin: 0 5px; }
@@ -3238,7 +3245,7 @@ p.form-message.success, p.form-message.error {
   .footer-area .copyright .text {
     color: #121212; }
   .footer-area.footer-dark {
-    background-color: #121212; }
+    background-color: #BC1823; }
     .footer-area.footer-dark .social li a {
       color: #fff; }
     .footer-area.footer-dark .footer-support {
